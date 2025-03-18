@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Consulting & CCTV Risk Assessments</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #34495e;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            background: #2c3e50;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .testimonials, .faq, .blog, .map {
+            margin-top: 30px;
+        }
+        .logo {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/mnt/data/A_professional_logo_for_'Security_Consulting_&_CCT.png" alt="Company Logo" width="200">
+        </div>
+        <h1>Security Consulting & CCTV Risk Assessments</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#faq">FAQ</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="home">
+        <h2>Welcome</h2>
+        <p>Providing professional security consulting and CCTV risk assessments to enhance safety and compliance.</p>
+    </div>
+    <div class="container" id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>CCTV Risk Assessments</li>
+            <li>Security Audits & Compliance</li>
+            <li>ISO 45001 Compliance Consulting</li>
+            <li>Emergency Response Planning</li>
+        </ul>
+    </div>
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>With extensive experience in security consulting and CCTV risk assessments, we help businesses mitigate risks and enhance security infrastructure.</p>
+    </div>
+    <div class="container testimonials" id="testimonials">
+        <h2>Testimonials</h2>
+        <p>"Excellent security consulting services! Helped our business stay compliant and secure." - Client A</p>
+        <p>"Professional and insightful risk assessments. Highly recommended!" - Client B</p>
+    </div>
+    <div class="container faq" id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <p><strong>Q: Why is a CCTV risk assessment important?</strong></p>
+        <p>A: It helps identify security vulnerabilities and ensures compliance with safety regulations.</p>
+        <p><strong>Q: Do you provide security audits for businesses?</strong></p>
+        <p>A: Yes! We offer comprehensive security audits to assess and improve your security infrastructure.</p>
+    </div>
+    <div class="container blog" id="blog">
+        <h2>Security Insights & Updates</h2>
+        <h3>Understanding CCTV Risk Assessments</h3>
+        <p>Risk assessments ensure that CCTV systems are properly placed, monitored, and used effectively. Learn how to optimize security and reduce blind spots.</p>
+        <h3>Top 5 Security Mistakes Businesses Make</h3>
+        <p>From weak access controls to outdated security systems, we break down the most common mistakes and how to avoid them.</p>
+        <h3>ISO 45001: Why It Matters for Workplace Safety</h3>
+        <p>Compliance with ISO 45001 ensures that your business follows best practices for occupational health and safety. Discover its importance in risk management.</p>
+    </div>
+    <div class="container map" id="map">
+        <h2>Our Location</h2>
+        <iframe src="https://www.google.com/maps/embed/v1/place?q=Security+Consulting+Location&key=YOUR_GOOGLE_MAPS_API_KEY" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Email: contact@securityconsulting.com</p>
+        <p>Phone: +123 456 7890</p>
+    </div>
+    <footer>
+        <p>&copy; 2025 Security Consulting & CCTV Risk Assessments</p>
+    </footer>
+</body>
+</html>
